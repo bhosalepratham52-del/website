@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="suitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E232E" />
+      <stop offset="100%" stop-color="#0B0D12" />
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E5A67C" />
+      <stop offset="100%" stop-color="#CF8E65" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="200" height="200" rx="24" fill="url(#bgGrad)" />
+
+  <!-- Shoulders & Dark Blazer / Suit -->
+  <path d="M 20 200 L 20 170 C 35 140 60 135 75 145 L 85 170 L 100 190 L 115 170 L 125 145 C 140 135 165 140 180 170 L 180 200 Z" fill="url(#suitGrad)" stroke="#334155" stroke-width="1.5" />
+
+  <!-- White Collared Shirt -->
+  <polygon points="85,145 100,180 115,145 108,135 100,140 92,135" fill="#FFFFFF" />
+
+  <!-- Dark Tie -->
+  <polygon points="98,145 102,145 105,185 100,195 95,185" fill="#090A0F" />
+
+  <!-- Neck -->
+  <rect x="88" y="115" width="24" height="25" rx="4" fill="url(#skinGrad)" />
+
+  <!-- Head / Face -->
+  <path d="M 72 82 C 72 52 82 45 100 45 C 118 45 128 52 128 82 C 128 108 118 126 100 126 C 82 126 72 108 72 82 Z" fill="url(#skinGrad)" />
+
+  <!-- Hair (Neat Dark Professional Style) -->
+  <path d="M 68 75 C 68 50 78 35 100 35 C 122 35 132 50 132 75 C 132 60 125 45 100 44 C 80 44 72 58 68 75 Z" fill="#171717" />
+  <path d="M 72 55 C 80 38 115 36 128 50 C 125 42 110 37 100 37 C 88 37 76 43 72 55 Z" fill="#262626" />
+
+  <!-- Eyeglasses -->
+  <rect x="76" y="70" width="20" height="13" rx="3" fill="none" stroke="#0F172A" stroke-width="2.5" />
+  <rect x="104" y="70" width="20" height="13" rx="3" fill="none" stroke="#0F172A" stroke-width="2.5" />
+  <!-- Bridge of glasses -->
+  <line x1="96" y1="76" x2="104" y2="76" stroke="#0F172A" stroke-width="2.5" />
+
+  <!-- Eyes behind glasses -->
+  <circle cx="86" cy="76" r="2.5" fill="#1C1917" />
+  <circle cx="114" cy="76" r="2.5" fill="#1C1917" />
+
+  <!-- Nose -->
+  <path d="M 98 80 L 102 92 L 97 94" fill="none" stroke="#B8734C" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Well-groomed Beard & Mustache -->
+  <path d="M 88 98 Q 100 95 112 98 Q 100 101 88 98 Z" fill="#1F2421" />
+  <path d="M 82 92 C 82 115 90 124 100 124 C 110 124 118 115 118 92 C 116 108 110 118 100 118 C 90 118 84 108 82 92 Z" fill="#1F2421" />
+
+  <!-- Ears -->
+  <circle cx="70" cy="84" r="5" fill="#CF8E65" />
+  <circle cx="130" cy="84" r="5" fill="#CF8E65" />
+</svg>
